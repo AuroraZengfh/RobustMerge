@@ -1,19 +1,6 @@
 # CoPA-Merging
 
 
-
-
-
-```bibtex
-@article{zeng2025parameter,
-  title={Parameter efficient merging for multimodal large language models with complementary parameter adaptation},
-  author={Zeng, Fanhu and Guo, Haiyang and Zhu, Fei and Shen, Li and Tang, Hao},
-  journal={arXiv preprint arXiv:2502.17159},
-  year={2025}
-}
-```
-
-
 ### Data Preparation
 
 Create `data` folder and download all dataset needed for merging.
@@ -29,6 +16,18 @@ You can also formulate your custom data and place them in the folder.
 Follow standard parameter-efficient fine-tuning procedure in [LLaVA](https://github.com/haotian-liu/LLaVA) to obtain individual checkpoints for each dataset.
 
 ### Merging Evaluation
+
+
+
+```bibtex
+@article{zeng2025parameter,
+  title={Parameter efficient merging for multimodal large language models with complementary parameter adaptation},
+  author={Zeng, Fanhu and Guo, Haiyang and Zhu, Fei and Shen, Li and Tang, Hao},
+  journal={arXiv preprint arXiv:2502.17159},
+  year={2025}
+}
+```
+
 
 
 ## Acknowledgememnt
