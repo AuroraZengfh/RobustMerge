@@ -2,6 +2,8 @@
 
 
 
+
+
 ```bibtex
 @article{zeng2025parameter,
   title={Parameter efficient merging for multimodal large language models with complementary parameter adaptation},
@@ -10,3 +12,10 @@
   year={2025}
 }
 ```
+
+
+## Acknowledgememnt
+
+The code is based on  [LLaVA](https://github.com/haotian-liu/LLaVA), [TIES-Merging](https://github.com/prateeky2806/ties-merging). Thanks for these great works and open sourcing! 
+
+If you find them helpful, please consider citing them as well. 
