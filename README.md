@@ -14,6 +14,23 @@
 ```
 
 
+### Data Preparation
+
+Create `data` folder and download all dataset needed for merging.
+
+For dataset listed in the paper, you can seen datasets in [CoIN](https://huggingface.co/datasets/Zacks-Chen/CoIN)(**ScienceQA, ImageNet, Grounding, VQAv2, OCRVQA**)  and [HiDe-LLaVA](github)(**VizWiz, Flickr30k, IconQA**)
+
+We also construct unseen datasets including **AOKVQA, ImageNet-R, Screen2W and TabMWP** in .
+
+You can also formulate your custom data and place them in the folder.
+
+
+### Training
+Follow standard parameter-efficient fine-tuning procedure in [LLaVA](https://github.com/haotian-liu/LLaVA) to obtain individual checkpoints for each dataset.
+
+### Merging Evaluation
+
+
 ## Acknowledgememnt
 
 The code is based on  [LLaVA](https://github.com/haotian-liu/LLaVA), [TIES-Merging](https://github.com/prateeky2806/ties-merging). Thanks for these great works and open sourcing! 
