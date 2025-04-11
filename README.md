@@ -5,7 +5,9 @@
 
 Create `data` folder and download all dataset needed for merging.
 
-For dataset listed in the paper, you can seen datasets in [CoIN](https://huggingface.co/datasets/Zacks-Chen/CoIN)(**ScienceQA, ImageNet, Grounding, VQAv2, OCRVQA**)  and [HiDe-LLaVA](github)(**VizWiz, Flickr30k, IconQA**)
+For dataset listed in the paper, you can find seen datasets:
+- **ScienceQA, ImageNet, Grounding, VQAv2, OCRVQA** in [CoIN](https://huggingface.co/datasets/Zacks-Chen/CoIN).
+- **VizWiz, Flickr30k, IconQA** in [HiDe-LLaVA](github).
 
 We also construct unseen datasets including **AOKVQA, ImageNet-R, Screen2W and TabMWP** in .
 
