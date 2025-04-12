@@ -3,12 +3,13 @@
 
 ### Model Preparation
 
-Create 'model' folder, donwload base model [LLaVA](https://github.com/haotian-liu/LLaVA) and put the checkpoint in the folder.
+Create `model` folder, donwload base model [LLaVA](https://github.com/haotian-liu/LLaVA) and put the checkpoint in the folder.
 
 ### Data and Instruction Preparation
 
-Create `datasets` folder and download all dataset needed for merging.
-Create `instructions` folder and download all dataset needed for merging.
+-- Create `datasets` folder and download all dataset needed for merging.
+
+-- Create `instructions` folder and download all the instructions needed for merging.
 
 
 For datasets and instructions listed in the paper, you can find seen datasets and instructions:
@@ -30,7 +31,7 @@ Follow standard parameter-efficient fine-tuning procedure in [LLaVA](https://git
 the showing scripts uses llava-v1.5-7b as an example.
 fine-tunede model must name as 'lora'
 
-diret fine-tuning
+direct fine-tuning
 
 '/path/to/your-fined-model' is the root folder of direct fine-tuned chekpoint
 '/path/to/yout/merged/checkpoint' is the folder of merged checkpoint
@@ -40,7 +41,7 @@ diret fine-tuning
 sh scripts/eval_merge/Eval_direct.sh
 ```
 
-merge lora weights
+evaluate merged model
 
 ```
 sh scripts/eval_merge/Eval_merge.sh
