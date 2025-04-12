@@ -1,17 +1,26 @@
 # CoPA-Merging
 
 
-### Data Preparation
+### Model Preparation
 
-Create `data` folder and download all dataset needed for merging.
+Create 'model' folder, donwload base model [LLaVA](https://github.com/haotian-liu/LLaVA) and put the checkpoint in the folder.
 
-For dataset listed in the paper, you can find seen datasets:
-- **ScienceQA, ImageNet, Grounding, VQAv2, OCRVQA** in [CoIN](https://huggingface.co/datasets/Zacks-Chen/CoIN).
-- **VizWiz, Flickr30k, IconQA** in [HiDe-LLaVA](github).
+### Data and Instruction Preparation
+
+Create `datasets` folder and download all dataset needed for merging.
+Create `instructions` folder and download all dataset needed for merging.
+
+
+For datasets and instructions listed in the paper, you can find seen datasets and instructions:
+- **ScienceQA, ImageNet, Grounding, OCRVQA** in [CoIN](https://huggingface.co/datasets/Zacks-Chen/CoIN).
+- **VQAv2, VizWiz, Flickr30k, IconQA** in [HiDe-LLaVA](github).
 
 We also construct unseen datasets including **AOKVQA, ImageNet-R, Screen2W and TabMWP** in .
 
 You can also formulate your custom data and place them in the folder.
+
+
+
 
 
 ### Training
