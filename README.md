@@ -7,6 +7,8 @@ This repo is the official implementation of paper: **[Parameter Efficient Mergin
 >
 > Fanhu Zeng, Haiyang Guo, Fei Zhu, Li Shen, Hao Tang
 
+[![arXiv](https://img.shields.io/badge/Arxiv-2502.17159-b31b1b.svg?logo=arXiv)](https://arxiv.org/abs/2502.17159)
+
 ### Model Preparation
 
 Create `model` folder, donwload base model [LLaVA](https://github.com/haotian-liu/LLaVA) and put the checkpoint in the folder.
