@@ -1,6 +1,12 @@
 # CoPA-Merging
 
 
+This repo is the official implementation of paper: **[Parameter Efficient Merging for Multimodal Large Language Models with Complementary Parameter Adaptation](https://arxiv.org/abs/2502.17159)**
+
+> Parameter Efficient Merging for Multimodal Large Language Models with Complementary Parameter Adaptation
+>
+> Fanhu Zeng, Haiyang Guo, Fei Zhu, Li Shen, Hao Tang
+
 ### Model Preparation
 
 Create `model` folder, donwload base model [LLaVA](https://github.com/haotian-liu/LLaVA) and put the checkpoint in the folder.
