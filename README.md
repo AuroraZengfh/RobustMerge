@@ -26,8 +26,25 @@ You can also formulate your custom data and place them in the folder.
 ### Training
 Follow standard parameter-efficient fine-tuning procedure in [LLaVA](https://github.com/haotian-liu/LLaVA) to obtain individual checkpoints for each dataset.
 
-### Merging Evaluation
+### Evaluation
+the showing scripts uses llava-v1.5-7b as an example.
+fine-tunede model must name as 'lora'
 
+diret fine-tuning
+
+'/path/to/your-fined-model' is the root folder of direct fine-tuned chekpoint
+'/path/to/yout/merged/checkpoint' is the folder of merged checkpoint
+
+
+```
+sh scripts/eval_merge/Eval_direct.sh
+```
+
+merge lora weights
+
+```
+sh scripts/eval_merge/Eval_merge.sh
+```
 
 
 ```bibtex
