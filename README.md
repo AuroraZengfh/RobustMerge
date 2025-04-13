@@ -17,6 +17,30 @@ This repo is the official implementation of paper: **[Parameter Efficient Mergin
 
 ## Quick Start
 
+### Install
+Like [LLaVA](https://github.com/haotian-liu/LLaVA), install the packages following the steps below:
+
+1. Clone this repository
+```bash
+git clone https://github.com/AuroraZengfh/CoPA-Merging.git
+cd CoPA-Merging
+```
+
+2. Install Package
+```Shell
+conda create -n copa-merging python=3.10 -y
+conda activate copa-merging
+pip install --upgrade pip
+pip install -e .
+```
+
+3. Install additional packages for training cases
+```
+pip install -e ".[train]"
+pip install flash-attn --no-build-isolation
+```
+
+
 ### Model Preparation
 
 Create `model` folder, donwload base model [LLaVA](https://github.com/haotian-liu/LLaVA) and put the checkpoint in the folder.
