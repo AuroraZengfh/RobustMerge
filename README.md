@@ -45,7 +45,7 @@ pip install flash-attn --no-build-isolation
 
 ### Model Preparation
 
-Create `model` folder, donwload base model [LLaVA](https://github.com/haotian-liu/LLaVA) and put the checkpoint in the folder.
+Create `models` folder, donwload base model [LLaVA](https://github.com/haotian-liu/LLaVA) and put the checkpoint in the folder.
 
 ### Data and Instruction Preparation
 
