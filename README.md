@@ -1,4 +1,4 @@
-# CoPA-Merging
+# CoPA-Merging: Parameter Efficient Merging for Multimodal Large Language Models with Complementary Parameter Adaptation
 
 
 This repo is the official implementation of paper: **[Parameter Efficient Merging for Multimodal Large Language Models with Complementary Parameter Adaptation](https://arxiv.org/abs/2502.17159)**
@@ -9,13 +9,15 @@ This repo is the official implementation of paper: **[Parameter Efficient Mergin
 
 [![arXiv](https://img.shields.io/badge/Arxiv-2502.17159-b31b1b.svg?logo=arXiv)](https://arxiv.org/abs/2502.17159)
 
+**Key words: Multi-modal large language model, Model merging, Multi-task learnning, Parameter efficient tuning.**
 
 ## :newspaper: News
 
+- **[2025.05.xx]** We release instructions for unseen tasks on Huggingface!
 - **[2025.04.11]** We release [Evaluation](#Evaluation) script for CoPA-Merging. Try it now! :fire:
 - **[2025.02.24]** [CoPA-Merging](https://arxiv.org/abs/2502.17159) is available on Arxiv. :candy:
 
-## Quick Start
+## :rocket: Quick Start
 
 ### Install
 Like [LLaVA](https://github.com/haotian-liu/LLaVA), install the packages following the steps below:
@@ -62,30 +64,37 @@ You can also formulate your custom data and place them in the folder.
 
 
 
-
-
 ### Training
 Follow standard parameter-efficient fine-tuning procedure in [LLaVA](https://github.com/haotian-liu/LLaVA) to obtain individual checkpoints for each dataset.
 
 ### Evaluation
-the showing scripts uses llava-v1.5-7b as an example.
-fine-tunede model must name as 'lora'
 
-direct fine-tuning
+You can alternate the foundation model according to your need.
 
-'/path/to/your-fined-model' is the root folder of direct fine-tuned chekpoint
-'/path/to/yout/merged/checkpoint' is the folder of merged checkpoint
+e.g., take llava-v1.5-7b as an example
 
+1. Evaluate direct fine-tuned model
 
 ```
 sh scripts/eval_merge/Eval_direct.sh
 ```
 
-evaluate merged model
+
+2. Merge direct fine-tuned model
+
+```
+sh scripts/merge/merge_lora.sh
+``` 
+
+3. Evaluate merged model
 
 ```
 sh scripts/eval_merge/Eval_merge.sh
 ```
+
+**Note**:
+- '/path/to/your-fined-model' in `Eval_direct.sh` and `merge_lora.sh` is the root folder of direct fine-tuned chekpoint
+- '/path/to/yout/merged/checkpoint' in `merge_lora.sh` and `Eval_merge.sh` is the folder of merged checkpoint
 
 ## :blue_book: Citation
 If you find this work useful, consider giving this repository a star :star: and citing :bookmark_tabs: our paper as follows:
