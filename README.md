@@ -9,6 +9,14 @@ This repo is the official implementation of paper: **[Parameter Efficient Mergin
 
 [![arXiv](https://img.shields.io/badge/Arxiv-2502.17159-b31b1b.svg?logo=arXiv)](https://arxiv.org/abs/2502.17159)
 
+
+## :newspaper: News
+
+- **[2025.04.11]** We release [evaluation](#Evaluation) script for CoPA-Merging. Try it now! :fire:
+- **[2025.02.24]** [CoPA-Merging](https://arxiv.org/abs/2502.17159) is available on Arxiv. :candy:
+
+## Quick Start
+
 ### Model Preparation
 
 Create `model` folder, donwload base model [LLaVA](https://github.com/haotian-liu/LLaVA) and put the checkpoint in the folder.
