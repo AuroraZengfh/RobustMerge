@@ -12,7 +12,7 @@ This repo is the official implementation of paper: **[Parameter Efficient Mergin
 
 ## :newspaper: News
 
-- **[2025.04.11]** We release [evaluation](#Evaluation) script for CoPA-Merging. Try it now! :fire:
+- **[2025.04.11]** We release [Evaluation](#Evaluation) script for CoPA-Merging. Try it now! :fire:
 - **[2025.02.24]** [CoPA-Merging](https://arxiv.org/abs/2502.17159) is available on Arxiv. :candy:
 
 ## Quick Start
@@ -63,6 +63,8 @@ evaluate merged model
 sh scripts/eval_merge/Eval_merge.sh
 ```
 
+## :blue_book: Citation
+If you find this work useful, consider giving this repository a star :star: and citing :bookmark_tabs: our paper as follows:
 
 ```bibtex
 @article{zeng2025parameter,
