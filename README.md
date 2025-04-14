@@ -9,7 +9,7 @@ This repo is the official implementation of paper: **[Parameter Efficient Mergin
 
 [![arXiv](https://img.shields.io/badge/Arxiv-2502.17159-b31b1b.svg?logo=arXiv)](https://arxiv.org/abs/2502.17159)
 
-**Key words: Multi-modal large language model, Model merging, Multi-task learnning, Parameter efficient tuning.**
+**Key words: Multi-modal large language model, Model merging, Multi-task learning, Parameter efficient tuning.**
 
 ## :newspaper: News
 
