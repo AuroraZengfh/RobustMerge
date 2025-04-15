@@ -54,11 +54,30 @@ Create `models` folder, donwload base model [LLaVA](https://github.com/haotian-l
 -- Create `instructions` folder and download all the instructions needed for merging.
 
 
-For datasets and instructions listed in the paper, you can find seen datasets and instructions:
-- **ScienceQA, ImageNet, Grounding, OCRVQA** in [CoIN](https://huggingface.co/datasets/Zacks-Chen/CoIN).
-- **VQAv2, VizWiz, Flickr30k, IconQA** in [HiDe-LLaVA](github).
+For datasets and instructions listed in the paper, you can find them in [MLLM_Merging](https://huggingface.co/datasets/AuroraZengfh/MLLM_Merging). Details of image sources for the datasets are listed as below:
 
-We also construct unseen datasets including **AOKVQA, ImageNet-R, Screen2W and TabMWP** in .
+**Seen datasets for merging**
+
+| Dataset | Image Source   | Download Path  |
+|  :----:  | :----:  |  :----:  |
+|  ScienceQA | ScienceQA | [images](https://drive.google.com/drive/folders/1w8imCXWYn2LxajmGeGH_g5DaL2rabHev) |
+| VizWiz | VizWiz | [images](https://opendatalab.org.cn/OpenDataLab/VizWiz-Captions) | 
+| ImageNet | ImageNet | [images](https://image-net.org/challenges/LSVRC/index.php) | 
+| VQAv2, Flickr30k | COCO2014 | [images](http://images.cocodataset.org/zips/train2014.zip) |
+| IconQA | IconQA | [images](https://iconqa2021.s3.us-west-1.amazonaws.com/iconqa_data.zip) | 
+| Flickr30k | Flickr30k | [images](https://github.com/BryanPlummer/flickr30k_entities) | 
+| OCRVQA | OCRVQA | [images](https://drive.google.com/drive/folders/1_GYPY5UkUy7HIcR0zq3ZCFgeZN7BAfm_) |
+
+
+**Unseen datasets for merging**
+
+| Dataset | Image Source   | Download Path  |
+|  :----:  | :----:  |  :----:  |
+| AOKVQA | COCO2014 | [images](http://images.cocodataset.org/zips/val2014.zip) |
+| ImageNet-R | ImageNet-R | [images](https://people.eecs.berkeley.edu/~hendrycks/imagenet-r.tar) | 
+| Screen2words | Screen2words  | [images](https://huggingface.co/datasets/pinkmooncake/rico-screen2words) |
+| TabMWP | TabMWP | [images](https://github.com/lupantech/PromptPG/tree/main/data/tabmwp)| 
+
 
 You can also formulate your custom data and place them in the folder.
 
