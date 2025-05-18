@@ -1,9 +1,9 @@
-# CoPA-Merging: Parameter Efficient Merging for Multimodal Large Language Models with Complementary Parameter Adaptation
+# CoPA-Merging: Parameter Efficient Merging for Multimodal Large Language Models with Direction Robustness
 
 
-This repo is the official implementation of paper: **[Parameter Efficient Merging for Multimodal Large Language Models with Complementary Parameter Adaptation](https://arxiv.org/abs/2502.17159)**
+This repo is the official implementation of paper: **[Parameter Efficient Merging for Multimodal Large Language Models with Direction Robustness](https://arxiv.org/abs/2502.17159)**
 
-> Parameter Efficient Merging for Multimodal Large Language Models with Complementary Parameter Adaptation
+> Parameter Efficient Merging for Multimodal Large Language Models with Direction Robustness
 >
 > Fanhu Zeng, Haiyang Guo, Fei Zhu, Li Shen, Hao Tang
 
@@ -120,7 +120,7 @@ If you find this work useful, consider giving this repository a star :star: and 
 
 ```bibtex
 @article{zeng2025parameter,
-  title={Parameter efficient merging for multimodal large language models with complementary parameter adaptation},
+  title={Parameter efficient merging for multimodal large language models with Direction Robustness},
   author={Zeng, Fanhu and Guo, Haiyang and Zhu, Fei and Shen, Li and Tang, Hao},
   journal={arXiv preprint arXiv:2502.17159},
   year={2025}
