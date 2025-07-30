@@ -7,7 +7,7 @@ This repo is the official implementation of paper: **[Parameter Efficient Mergin
 >
 > Fanhu Zeng, Haiyang Guo, Fei Zhu, Li Shen, Hao Tang
 
-[![arXiv](https://img.shields.io/badge/Arxiv-2502.17159-b31b1b.svg?logo=arXiv)](https://arxiv.org/abs/2502.17159)
+[![arXiv](https://img.shields.io/badge/Arxiv-2502.17159-b31b1b.svg?logo=arXiv)](https://arxiv.org/abs/2502.17159) [![🤗 Dataset (HuggingFace)](https://img.shields.io/badge/Dataset-HuggingFace-FFD21E.svg?logo=huggingface&logoColor=yellow)](https://huggingface.co/datasets/AuroraZengfh/MLLM_Merging)
 
 **Key words: Multi-modal large language model, Model merging, Multi-task learning, Parameter efficient tuning.**
 
@@ -54,7 +54,7 @@ Create `models` folder, donwload base model [LLaVA](https://github.com/haotian-l
 -- Create `instructions` folder and download all the instructions needed for merging.
 
 
-For datasets and instructions listed in the paper, you can find them in [MLLM_Merging](https://huggingface.co/datasets/AuroraZengfh/MLLM_Merging). Details of image sources for the datasets are listed as below:
+For the constructed mllm merging benchmark including both datasets and instructions, you can find them in [MLLM_Merging](https://huggingface.co/datasets/AuroraZengfh/MLLM_Merging). Details of image sources for the datasets are listed as below:
 
 **Seen datasets for merging**
 
