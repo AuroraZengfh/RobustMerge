@@ -7,7 +7,7 @@ This repo is the official implementation of paper: **[Parameter Efficient Mergin
 >
 > Fanhu Zeng, Haiyang Guo, Fei Zhu, Li Shen, Hao Tang
 
-[![arXiv](https://img.shields.io/badge/Arxiv-2502.17159-b31b1b.svg?logo=arXiv)](https://arxiv.org/abs/2502.17159) [![🤗 Dataset (HuggingFace)](https://img.shields.io/badge/Dataset-HuggingFace-FFD21E.svg?logo=huggingface&logoColor=yellow)](https://huggingface.co/datasets/AuroraZengfh/MLLM_Merging)
+[![arXiv](https://img.shields.io/badge/Arxiv-2502.17159-b31b1b.svg?logo=arXiv)](https://arxiv.org/abs/2502.17159) [![🤗 Dataset (HuggingFace)](https://img.shields.io/badge/Dataset-HuggingFace-FFD21E.svg?logo=huggingface&logoColor=yellow)](https://huggingface.co/datasets/AuroraZengfh/MLLM_Merging) [![🤗 Model (HuggingFace)](https://img.shields.io/badge/Model-HuggingFace-FFD21E.svg?logo=huggingface&logoColor=yellow)](https://huggingface.co/AuroraZengfh/models)
 
 **Key words: Multi-modal large language model, Model merging, Multi-task learning, Parameter efficient tuning.**
 
@@ -63,7 +63,7 @@ For the constructed mllm merging benchmark including both datasets and instructi
 |  ScienceQA | ScienceQA | [images](https://drive.google.com/drive/folders/1w8imCXWYn2LxajmGeGH_g5DaL2rabHev) |
 | VizWiz | VizWiz | [images](https://opendatalab.org.cn/OpenDataLab/VizWiz-Captions) | 
 | ImageNet | ImageNet | [images](https://image-net.org/challenges/LSVRC/index.php) | 
-| VQAv2, Flickr30k | COCO2014 | [images](http://images.cocodataset.org/zips/train2014.zip) |
+| VQAv2, REC | COCO2014 | [images](http://images.cocodataset.org/zips/train2014.zip) |
 | IconQA | IconQA | [images](https://iconqa2021.s3.us-west-1.amazonaws.com/iconqa_data.zip) | 
 | Flickr30k | Flickr30k | [images](https://github.com/BryanPlummer/flickr30k_entities) | 
 | OCRVQA | OCRVQA | [images](https://drive.google.com/drive/folders/1_GYPY5UkUy7HIcR0zq3ZCFgeZN7BAfm_) |
@@ -80,6 +80,20 @@ For the constructed mllm merging benchmark including both datasets and instructi
 
 
 You can also formulate your custom data and place them in the folder.
+
+**Fine-tuned Model weights**
+We provide model weights on these eight datasets with LoRA fine-tuned for 1 epoch.
+
+| Dataset | Fine-tuned Model Weights|
+|  :----:  | :----: |
+|  ScienceQA | [model-path](https://huggingface.co/AuroraZengfh/LLaVA_7B_lora_r16_ScienceQA) |
+| VizWiz | [model-path](https://huggingface.co/AuroraZengfh/LLaVA_7B_lora_r16_VizWiz) | 
+| ImageNet | [model-path](https://huggingface.co/AuroraZengfh/LLaVA_7B_lora_r16_ImageNet)| 
+| VQAv2 | [model-path](https://huggingface.co/AuroraZengfh/LLaVA_7B_lora_r16_VQAv2) |
+| REC | [model-path](https://huggingface.co/AuroraZengfh/LLaVA_7B_lora_r16_REC) |
+| IconQA | [model-path](https://huggingface.co/AuroraZengfh/LLaVA_7B_lora_r16_IconQA)  | 
+| Flickr30k | [model-path](https://huggingface.co/AuroraZengfh/LLaVA_7B_lora_r16_flickr30k) | 
+| OCRVQA | [model-path](https://huggingface.co/AuroraZengfh/LLaVA_7B_lora_r16_OCRVQA)  |
 
 
 
