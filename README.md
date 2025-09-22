@@ -11,12 +11,24 @@ This repo is the official implementation of paper: **[DIR-Merging: Parameter Eff
 
 **Key words: Multi-modal large language model, Model merging, Multi-task learning, Parameter efficient tuning.**
 
+**TL;DR: An effective parameter efficient merging method for multimodal large language models from the perspective of direction robustness in low-rank space**
+
 ## :newspaper: News
 
 - **[2025.09.18]** **DIR-Merging** is accepted by **NeurIPS 2025** and selected as **Spotlight** !!!! :tada:
 - **[2025.05.12]** We release instructions for multimodal large language model merging tasks on [Huggingface](https://huggingface.co/datasets/AuroraZengfh/MLLM_Merging/edit), feel free to try it! :fire:
 - **[2025.04.11]** We release [Evaluation](#Evaluation) script for DIR-Merging. Try it now! :fireworks:
 - **[2025.02.24]** [DIR-Merging](https://arxiv.org/abs/2502.17159) is available on Arxiv. :candy:
+
+## :star2: Motivation
+![overall](figures/illustration.png)
+
+
+## :classical_building: Structure
+<div align="center">
+  <img src=figures/structure.png width="960px">
+</div>
+
 
 ## :rocket: Quick Start
 
