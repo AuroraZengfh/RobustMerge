@@ -26,7 +26,7 @@ This repo is the official implementation of paper: **[DIR-Merging: Parameter Eff
 
 ## :classical_building: Structure
 <div align="center">
-  <img src=figures/structure.png width="960px">
+  <img src=figures/structure.png width="840px">
 </div>
 
 
