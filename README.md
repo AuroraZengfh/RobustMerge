@@ -1,7 +1,7 @@
 # DIR-Merging: Parameter Efficient Merging for Multimodal Large Language Models with Direction Robustness (NeurIPS 2025 Spotlight)
 
 
-This repo is the official implementation of paper: **[DIR-Merging: Parameter Efficient Merging for Multimodal Large Language Models with Direction Robustness](https://arxiv.org/abs/2502.17159) [NeurIPS 2025 (Spotlight, acceptance rate: 1.5%)]**
+This repo is the official implementation of paper: **[DIR-Merging: Parameter Efficient Merging for Multimodal Large Language Models with Direction Robustness](https://arxiv.org/abs/2502.17159) [NeurIPS 2025 (Spotlight, acceptance rate: 3.1%)]**
 
 > DIR-Merging: Parameter Efficient Merging for Multimodal Large Language Models with Direction Robustness
 >
@@ -23,12 +23,14 @@ This repo is the official implementation of paper: **[DIR-Merging: Parameter Eff
 
 ## :star2: Motivation
 ![overall](figures/illustration.png)
-
+In parameter efficient model merging, for a single matrix, direction for each singular value can be viewed as task specific knowledge in low-rank space and the magnitude of singular value is the extent to which the knowledge is utilized in current task. **_Left_:** Stark singular values exist within task, leading to instability when merging between tasks. **_Right_**: As directions of large singular value are naturally robust, direction instability are more likely to happen for small values when merging specific singular vector.
 
 ## :classical_building: Structure
 <div align="center">
   <img src=figures/structure.png width="840px">
 </div>
+
+**Mitigating gap between singular values is effective for high-performance merged model**: We prune ineffective parameters and construct scaling coefficients from inter-parameter relation directly on LoRA components to mitigate interference between tasks aroused from stark singular values difference. Additionally, we perform cross-task normalization to balance tasks of different data scales and enhance unseen task generalization.
 
 
 ## :rocket: Quick Start
@@ -95,22 +97,6 @@ For the constructed mllm merging benchmark including both datasets and instructi
 
 You can also formulate your custom data and place them in the folder.
 
-### Fine-tuned Model weights
-We provide [model weights](https://huggingface.co/collections/AuroraZengfh/mm-merging-bench-68d15d1e884bad26f6f94972) on these eight datasets with LoRA fine-tuned for 1 epoch to empower a quick start.
-
-| Dataset | Fine-tuned Model Weights|
-|  :----:  | :----: |
-|  ScienceQA | [model-path](https://huggingface.co/AuroraZengfh/LLaVA_7B_lora_r16_ScienceQA) |
-| VizWiz | [model-path](https://huggingface.co/AuroraZengfh/LLaVA_7B_lora_r16_VizWiz) | 
-| ImageNet | [model-path](https://huggingface.co/AuroraZengfh/LLaVA_7B_lora_r16_ImageNet)| 
-| VQAv2 | [model-path](https://huggingface.co/AuroraZengfh/LLaVA_7B_lora_r16_VQAv2) |
-| REC | [model-path](https://huggingface.co/AuroraZengfh/LLaVA_7B_lora_r16_REC) |
-| IconQA | [model-path](https://huggingface.co/AuroraZengfh/LLaVA_7B_lora_r16_IconQA)  | 
-| Flickr30k | [model-path](https://huggingface.co/AuroraZengfh/LLaVA_7B_lora_r16_flickr30k) | 
-| OCRVQA | [model-path](https://huggingface.co/AuroraZengfh/LLaVA_7B_lora_r16_OCRVQA)  |
-
-
-
 ### Training
 Follow standard parameter-efficient fine-tuning procedure in [LLaVA](https://github.com/haotian-liu/LLaVA) to obtain individual checkpoints for each dataset.
 
@@ -142,6 +128,20 @@ sh scripts/eval_merge/Eval_merge.sh
 **Note**:
 - '/path/to/your-fined-model' in `Eval_direct.sh` and `merge_lora.sh` is the root folder of direct fine-tuned chekpoint
 - '/path/to/yout/merged/checkpoint' in `merge_lora.sh` and `Eval_merge.sh` is the folder of merged checkpoint
+
+### Fine-tuned Model weights
+We provide [model weights](https://huggingface.co/collections/AuroraZengfh/mm-merging-bench-68d15d1e884bad26f6f94972) on these eight datasets with LoRA fine-tuned for 1 epoch to empower a quick start.
+
+| Dataset | Fine-tuned Model Weights|
+|  :----:  | :----: |
+|  ScienceQA | [model-path](https://huggingface.co/AuroraZengfh/LLaVA_7B_lora_r16_ScienceQA) |
+| VizWiz | [model-path](https://huggingface.co/AuroraZengfh/LLaVA_7B_lora_r16_VizWiz) | 
+| ImageNet | [model-path](https://huggingface.co/AuroraZengfh/LLaVA_7B_lora_r16_ImageNet)| 
+| VQAv2 | [model-path](https://huggingface.co/AuroraZengfh/LLaVA_7B_lora_r16_VQAv2) |
+| REC | [model-path](https://huggingface.co/AuroraZengfh/LLaVA_7B_lora_r16_REC) |
+| IconQA | [model-path](https://huggingface.co/AuroraZengfh/LLaVA_7B_lora_r16_IconQA)  | 
+| Flickr30k | [model-path](https://huggingface.co/AuroraZengfh/LLaVA_7B_lora_r16_flickr30k) | 
+| OCRVQA | [model-path](https://huggingface.co/AuroraZengfh/LLaVA_7B_lora_r16_OCRVQA)  |
 
 ## :blue_book: Citation
 If you find this work useful, consider giving this repository a star :star: and citing :bookmark_tabs: our paper as follows:
