@@ -95,8 +95,8 @@ For the constructed mllm merging benchmark including both datasets and instructi
 
 You can also formulate your custom data and place them in the folder.
 
-**Fine-tuned Model weights**
-We provide [model weights](https://huggingface.co/collections/AuroraZengfh/mm-merging-bench-68d15d1e884bad26f6f94972) on these eight datasets with LoRA fine-tuned for 1 epoch.
+### Fine-tuned Model weights
+We provide [model weights](https://huggingface.co/collections/AuroraZengfh/mm-merging-bench-68d15d1e884bad26f6f94972) on these eight datasets with LoRA fine-tuned for 1 epoch to empower a quick start.
 
 | Dataset | Fine-tuned Model Weights|
 |  :----:  | :----: |
