@@ -7,7 +7,7 @@ This repo is the official implementation of paper: **[DIR-Merging: Parameter Eff
 >
 > Fanhu Zeng, Haiyang Guo, Fei Zhu, Li Shen, Hao Tang
 
-[![arXiv](https://img.shields.io/badge/Arxiv-2502.17159-b31b1b.svg?logo=arXiv)](https://arxiv.org/abs/2502.17159) [![🤗 Dataset (HuggingFace)](https://img.shields.io/badge/Dataset-HuggingFace-FFD21E.svg?logo=huggingface&logoColor=yellow)](https://huggingface.co/datasets/AuroraZengfh/MLLM_Merging) [![🤗 Model (HuggingFace)](https://img.shields.io/badge/Model-HuggingFace-FFD21E.svg?logo=huggingface&logoColor=yellow)](https://huggingface.co/AuroraZengfh/models)
+[![arXiv](https://img.shields.io/badge/Arxiv-2502.17159-b31b1b.svg?logo=arXiv)](https://arxiv.org/abs/2502.17159) [![🤗 Dataset (HuggingFace)](https://img.shields.io/badge/Dataset-HuggingFace-FFD21E.svg?logo=huggingface&logoColor=yellow)](https://huggingface.co/datasets/AuroraZengfh/MM-Merging-Bench) [![🤗 Model (HuggingFace)](https://img.shields.io/badge/Model-HuggingFace-FFD21E.svg?logo=huggingface&logoColor=yellow)](https://huggingface.co/AuroraZengfh/models)
 
 **Key words: Multi-modal large language model, Model merging, Multi-task learning, Parameter efficient tuning.**
 
@@ -17,7 +17,7 @@ This repo is the official implementation of paper: **[DIR-Merging: Parameter Eff
 
 - **[2025.09.18]** **DIR-Merging** is accepted by **NeurIPS 2025** and selected as **Spotlight** !!!! :tada:
 - **[2025.08.03]** We release [fine-tuned models](https://huggingface.co/collections/AuroraZengfh/mm-merging-bench-68d15d1e884bad26f6f94972) of eight seen dataset for a quick start of the benchmark! :art:
-- **[2025.05.12]** We release instructions for multimodal large language model merging tasks on [Huggingface](https://huggingface.co/datasets/AuroraZengfh/MLLM_Merging), feel free to try it! :fire:
+- **[2025.05.12]** We release instructions for multimodal large language model merging tasks on [Huggingface](https://huggingface.co/datasets/AuroraZengfh/MM-Merging-Bench), feel free to try it! :fire:
 - **[2025.04.11]** We release [Evaluation](#Evaluation) script for DIR-Merging. Try it now! :fireworks:
 - **[2025.02.24]** [DIR-Merging](https://arxiv.org/abs/2502.17159) is available on Arxiv. :candy:
 
@@ -68,7 +68,7 @@ Create `models` folder, donwload base model [LLaVA](https://github.com/haotian-l
 -- Create `instructions` folder and download all the instructions needed for merging.
 
 
-For the constructed mllm merging benchmark including both datasets and instructions, you can find them in [MLLM_Merging](https://huggingface.co/datasets/AuroraZengfh/MLLM_Merging). Details of image sources for the datasets are listed as below:
+For the constructed mllm merging benchmark including both datasets and instructions, you can find them in [MM-Merging-Bench](https://huggingface.co/datasets/AuroraZengfh/MM-Merging-Bench). Details of image sources for the datasets are listed as below:
 
 **Seen datasets for merging**
 
@@ -96,7 +96,7 @@ For the constructed mllm merging benchmark including both datasets and instructi
 You can also formulate your custom data and place them in the folder.
 
 **Fine-tuned Model weights**
-We provide model weights on these eight datasets with LoRA fine-tuned for 1 epoch.
+We provide [model weights](https://huggingface.co/collections/AuroraZengfh/mm-merging-bench-68d15d1e884bad26f6f94972) on these eight datasets with LoRA fine-tuned for 1 epoch.
 
 | Dataset | Fine-tuned Model Weights|
 |  :----:  | :----: |
