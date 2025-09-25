@@ -9,7 +9,7 @@ This repo is the official implementation of paper: **[DIR-Merging: Parameter Eff
 
 [![arXiv](https://img.shields.io/badge/Arxiv-2502.17159-b31b1b.svg?logo=arXiv)](https://arxiv.org/abs/2502.17159) [![🤗 Dataset (HuggingFace)](https://img.shields.io/badge/Dataset-HuggingFace-FFD21E.svg?logo=huggingface&logoColor=yellow)](https://huggingface.co/datasets/AuroraZengfh/MM-Merging-Bench) [![🤗 Model (HuggingFace)](https://img.shields.io/badge/Model-HuggingFace-FFD21E.svg?logo=huggingface&logoColor=yellow)](https://huggingface.co/collections/AuroraZengfh/mm-merging-bench-68d15d1e884bad26f6f94972)
 
-**Key words: Multi-modal large language model, Model merging, Multi-task learning, Parameter efficient tuning.**
+**Key words: Multimodal large language model, Model merging, Multi-task learning, Parameter efficient tuning, Robust fine-tuning.**
 
 **TL;DR: An effective parameter efficient merging method for multimodal large language models from the perspective of direction robustness in low-rank space**
 
@@ -17,7 +17,7 @@ This repo is the official implementation of paper: **[DIR-Merging: Parameter Eff
 
 - **[2025.09.18]** **DIR-Merging** is accepted by **NeurIPS 2025** and selected as **Spotlight** !!!! :tada:
 - **[2025.08.03]** We release [fine-tuned models](https://huggingface.co/collections/AuroraZengfh/mm-merging-bench-68d15d1e884bad26f6f94972) of eight seen dataset for a quick start of the benchmark! :art:
-- **[2025.05.12]** We release instructions for multimodal large language model merging tasks on [Huggingface](https://huggingface.co/datasets/AuroraZengfh/MM-Merging-Bench), feel free to try it! :fire:
+- **[2025.05.12]** We release instructions for [MM-Merging-Bench](https://huggingface.co/datasets/AuroraZengfh/MM-Merging-Bench) on Huggingface, feel free to try it! :fire:
 - **[2025.04.11]** We release [Evaluation](#Evaluation) script for DIR-Merging. Try it now! :fireworks:
 - **[2025.02.24]** [DIR-Merging](https://arxiv.org/abs/2502.17159) is available on Arxiv. :candy:
 
@@ -148,7 +148,7 @@ If you find this work useful, consider giving this repository a star :star: and 
 
 ```bibtex
 @article{zeng2025parameter,
-  title={DIR-Merging: Parameter efficient merging for multimodal large language models with Direction Robustness},
+  title={Parameter Efficient Merging for Multimodal Large Language Models with Direction Robustness},
   author={Zeng, Fanhu and Guo, Haiyang and Zhu, Fei and Shen, Li and Tang, Hao},
   journal={arXiv preprint arXiv:2502.17159},
   year={2025}
