@@ -1,4 +1,4 @@
-# DIR-Merging: Parameter Efficient Merging for Multimodal Large Language Models with Direction Robustness (NeurIPS 2025 Spotlight)
+# DIR-Merging: Parameter Efficient Merging for Multimodal Large Language Models with Direction Robustness (NeurIPS 2025 Spotlight :fire:)
 
 
 This repo is the official implementation of paper: **[DIR-Merging: Parameter Efficient Merging for Multimodal Large Language Models with Direction Robustness](https://arxiv.org/abs/2502.17159) [NeurIPS 2025 (Spotlight, acceptance rate: 3.1%)]**
