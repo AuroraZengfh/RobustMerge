@@ -1,9 +1,8 @@
-# DIR-Merging: Parameter Efficient Merging for Multimodal Large Language Models with Direction Robustness (NeurIPS 2025 Spotlight :fire:)
+# RobustMerge: Parameter Efficient Model Merging for MLLMs with Direction Robustness (NeurIPS 2025 Spotlight :fire:)
 
+This repo is the official implementation of paper: **[RobustMerge: Parameter Efficient Model Merging for MLLMs with Direction Robustness](https://arxiv.org/abs/2502.17159) [NeurIPS 2025 (Spotlight, acceptance rate: 3.1%)]**
 
-This repo is the official implementation of paper: **[DIR-Merging: Parameter Efficient Merging for Multimodal Large Language Models with Direction Robustness](https://arxiv.org/abs/2502.17159) [NeurIPS 2025 (Spotlight, acceptance rate: 3.1%)]**
-
-> DIR-Merging: Parameter Efficient Merging for Multimodal Large Language Models with Direction Robustness
+> RobustMerge: Parameter Efficient Model Merging for MLLMs with Direction Robustness
 >
 > Fanhu Zeng, Haiyang Guo, Fei Zhu, Li Shen, Hao Tang
 
@@ -15,11 +14,11 @@ This repo is the official implementation of paper: **[DIR-Merging: Parameter Eff
 
 ## :newspaper: News
 
-- **[2025.09.18]** **DIR-Merging** is accepted by **NeurIPS 2025** and selected as **Spotlight** !!!! :tada:
+- **[2025.09.18]** **RobustMerge** is accepted by **NeurIPS 2025** and selected as **Spotlight** !!!! :tada:
 - **[2025.08.03]** We release [fine-tuned models](https://huggingface.co/collections/AuroraZengfh/mm-merging-bench-68d15d1e884bad26f6f94972) of eight seen dataset for a quick start of the benchmark! :art:
 - **[2025.05.12]** We release instructions for [MM-Merging-Bench](https://huggingface.co/datasets/AuroraZengfh/MM-Merging-Bench) on Huggingface, feel free to try it! :fire:
-- **[2025.04.11]** We release [Evaluation](#Evaluation) script for DIR-Merging. Try it now! :fireworks:
-- **[2025.02.24]** [DIR-Merging](https://arxiv.org/abs/2502.17159) is available on Arxiv. :candy:
+- **[2025.04.11]** We release [Evaluation](#Evaluation) script for RobustMerge. Try it now! :fireworks:
+- **[2025.02.24]** [RobustMerge](https://arxiv.org/abs/2502.17159) is available on Arxiv. :candy:
 
 ## :star2: Motivation
 ![overall](figures/illustration.png)
@@ -148,7 +147,7 @@ If you find this work useful, consider giving this repository a star :star: and 
 
 ```bibtex
 @article{zeng2025parameter,
-  title={Parameter Efficient Merging for Multimodal Large Language Models with Direction Robustness},
+  title={RobustMerge: Parameter Efficient Model Merging for MLLMs with Direction Robustness},
   author={Zeng, Fanhu and Guo, Haiyang and Zhu, Fei and Shen, Li and Tang, Hao},
   journal={arXiv preprint arXiv:2502.17159},
   year={2025}
