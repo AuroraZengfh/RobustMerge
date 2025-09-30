@@ -10,7 +10,7 @@ This repo is the official implementation of paper: **[RobustMerge: Parameter-Eff
 
 **Key words: Multimodal large language model, Model merging, Multi-task learning, Parameter-efficient tuning, Robust fine-tuning.**
 
-**TL;DR: An effective parameter-efficient merging method for multimodal large language models from the perspective of direction robustness in low-rank space**
+**TL;DR: An effective parameter-efficient model merging method for multimodal large language models from the perspective of direction robustness in low-rank space**
 
 ## :newspaper: News
 
