@@ -1,16 +1,16 @@
-# RobustMerge: Parameter Efficient Model Merging for MLLMs with Direction Robustness (NeurIPS 2025 Spotlight :fire:)
+# RobustMerge: Parameter-Efficient Model Merging for MLLMs with Direction Robustness (NeurIPS 2025 Spotlight :fire:)
 
-This repo is the official implementation of paper: **[RobustMerge: Parameter Efficient Model Merging for MLLMs with Direction Robustness](https://arxiv.org/abs/2502.17159) [NeurIPS 2025 (Spotlight, acceptance rate: 3.1%)]**
+This repo is the official implementation of paper: **[RobustMerge: Parameter-Efficient Model Merging for MLLMs with Direction Robustness](https://arxiv.org/abs/2502.17159) [NeurIPS 2025 (Spotlight, acceptance rate: 3.1%)]**
 
-> RobustMerge: Parameter Efficient Model Merging for MLLMs with Direction Robustness
+> RobustMerge: Parameter-Efficient Model Merging for MLLMs with Direction Robustness
 >
 > Fanhu Zeng, Haiyang Guo, Fei Zhu, Li Shen, Hao Tang
 
 [![arXiv](https://img.shields.io/badge/Arxiv-2502.17159-b31b1b.svg?logo=arXiv)](https://arxiv.org/abs/2502.17159) [![🤗 Dataset (HuggingFace)](https://img.shields.io/badge/Dataset-HuggingFace-FFD21E.svg?logo=huggingface&logoColor=yellow)](https://huggingface.co/datasets/AuroraZengfh/MM-MergeBench) [![🤗 Model (HuggingFace)](https://img.shields.io/badge/Model-HuggingFace-FFD21E.svg?logo=huggingface&logoColor=yellow)](https://huggingface.co/collections/AuroraZengfh/mm-mergebench-68d15d1e884bad26f6f94972)
 
-**Key words: Multimodal large language model, Model merging, Multi-task learning, Parameter efficient tuning, Robust fine-tuning.**
+**Key words: Multimodal large language model, Model merging, Multi-task learning, Parameter-efficient tuning, Robust fine-tuning.**
 
-**TL;DR: An effective parameter efficient merging method for multimodal large language models from the perspective of direction robustness in low-rank space**
+**TL;DR: An effective parameter-efficient merging method for multimodal large language models from the perspective of direction robustness in low-rank space**
 
 ## :newspaper: News
 
@@ -22,7 +22,7 @@ This repo is the official implementation of paper: **[RobustMerge: Parameter Eff
 
 ## :star2: Motivation
 ![overall](figures/illustration.png)
-In parameter efficient model merging, for a single matrix, direction for each singular value can be viewed as task specific knowledge in low-rank space and the magnitude of singular value is the extent to which the knowledge is utilized in current task. **_Left_:** Stark singular values exist within task, leading to instability when merging between tasks. **_Right_**: As directions of large singular value are naturally robust, direction instability are more likely to happen for small values when merging specific singular vector.
+In parameter-efficient model merging, for a single matrix, direction for each singular value can be viewed as task specific knowledge in low-rank space and the magnitude of singular value is the extent to which the knowledge is utilized in current task. **_Left_:** Stark singular values exist within task, leading to instability when merging between tasks. **_Right_**: As directions of large singular value are naturally robust, direction instability are more likely to happen for small values when merging specific singular vector.
 
 ## :classical_building: Structure
 <div align="center">
@@ -147,7 +147,7 @@ If you find this work useful, consider giving this repository a star :star: and 
 
 ```bibtex
 @article{zeng2025parameter,
-  title={RobustMerge: Parameter Efficient Model Merging for MLLMs with Direction Robustness},
+  title={RobustMerge: Parameter-Efficient Model Merging for MLLMs with Direction Robustness},
   author={Zeng, Fanhu and Guo, Haiyang and Zhu, Fei and Shen, Li and Tang, Hao},
   journal={arXiv preprint arXiv:2502.17159},
   year={2025}
