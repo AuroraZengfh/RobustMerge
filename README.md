@@ -39,14 +39,14 @@ Like [LLaVA](https://github.com/haotian-liu/LLaVA), install the packages followi
 
 1. Clone this repository
 ```bash
-git clone https://github.com/AuroraZengfh/CoPA-Merging.git
-cd CoPA-Merging
+git clone https://github.com/AuroraZengfh/RobustMerge.git
+cd RobustMerge
 ```
 
 2. Install Package
 ```Shell
-conda create -n copa-merging python=3.10 -y
-conda activate copa-merging
+conda create -n robustmerge python=3.10 -y
+conda activate robustmerge
 pip install --upgrade pip
 pip install -e .
 ```
