@@ -57,7 +57,6 @@ pip install -e ".[train]"
 pip install flash-attn --no-build-isolation
 ```
 
-
 ### Model Preparation
 
 Create `models` folder, donwload base model [LLaVA](https://github.com/haotian-liu/LLaVA) and put the checkpoint in the folder.
@@ -111,12 +110,11 @@ e.g., take llava-v1.5-7b as an example
 sh scripts/eval_merge/Eval_direct.sh
 ```
 
-
 2. Merge direct fine-tuned model
 
 ```
 sh scripts/merge/merge_lora.sh
-``` 
+```
 
 3. Evaluate merged model
 
@@ -153,8 +151,6 @@ If you find this work useful, consider giving this repository a star :star: and 
   year={2025}
 }
 ```
-
-
 
 ## Acknowledgememnt
 
