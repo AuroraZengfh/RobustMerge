@@ -16,7 +16,7 @@ This repo is the official implementation of paper: **[RobustMerge: Parameter-Eff
 
 - **[2025.09.18]** **RobustMerge** is accepted by **NeurIPS 2025** and selected as **Spotlight** !!!! :tada:
 - **[2025.08.03]** We release [fine-tuned models](https://huggingface.co/collections/AuroraZengfh/mm-mergebench-68d15d1e884bad26f6f94972) of eight seen dataset for a quick start of the benchmark! :art:
-- **[2025.05.12]** We release instructions for [MM-Merging-Bench](https://huggingface.co/datasets/AuroraZengfh/MM-MergeBench) on Huggingface, feel free to try it! :fire:
+- **[2025.05.12]** We release instructions for [MM-MergeBench](https://huggingface.co/datasets/AuroraZengfh/MM-MergeBench) on Huggingface, feel free to try it! :fire:
 - **[2025.04.11]** We release [Evaluation](#Evaluation) script for RobustMerge. Try it now! :fireworks:
 - **[2025.02.24]** [RobustMerge](https://arxiv.org/abs/2502.17159) is available on Arxiv. :candy:
 
@@ -68,7 +68,7 @@ Create `models` folder, donwload base model [LLaVA](https://github.com/haotian-l
 -- Create `instructions` folder and download all the instructions needed for merging.
 
 
-For the constructed mllm merging benchmark including both datasets and instructions, you can find them in [MM-Merging-Bench](https://huggingface.co/datasets/AuroraZengfh/MM-MergeBench). Details of image sources for the datasets are listed as below:
+For the constructed mllm merging benchmark including both datasets and instructions, you can find them in [MM-MergeBench](https://huggingface.co/datasets/AuroraZengfh/MM-MergeBench). Details of image sources for the datasets are listed as below:
 
 **Seen datasets for merging**
 
