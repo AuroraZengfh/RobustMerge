@@ -74,7 +74,7 @@ For the constructed mllm merging benchmark including both datasets and instructi
 
 | Dataset | Image Source   | Download Path  |
 |  :----:  | :----:  |  :----:  |
-|  ScienceQA | ScienceQA | [images](https://huggingface.co/datasets/derek-thomas/ScienceQA) |
+|  ScienceQA | ScienceQA | [images](https://drive.google.com/drive/folders/16kuhXdM-MOhYcFIyRj91WvnDnjnF-xHw) |
 | VizWiz | VizWiz | [images](https://opendatalab.org.cn/OpenDataLab/VizWiz-Captions) | 
 | ImageNet | ImageNet | [images](https://image-net.org/challenges/LSVRC/index.php) | 
 | VQAv2, REC | COCO2014 | [images](http://images.cocodataset.org/zips/train2014.zip) |
