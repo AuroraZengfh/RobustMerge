@@ -7,9 +7,10 @@ This repo is the official implementation of paper: **[RobustMerge: Parameter-Eff
 > Fanhu Zeng, Haiyang Guo, Fei Zhu, Li Shen, Hao Tang
 
 [![arXiv](https://img.shields.io/badge/Arxiv-2502.17159-b31b1b.svg?logo=arXiv)](https://arxiv.org/abs/2502.17159)
-[![zhihu](https://img.shields.io/badge/-WeChat@机器之心-000000?logo=wechat&logoColor=07C160)](https://mp.weixin.qq.com/s/H5bahJeeGX9RZGUmW-AucQ)
 [![🤗 Dataset (HuggingFace)](https://img.shields.io/badge/Dataset-HuggingFace-FFD21E.svg?logo=huggingface&logoColor=yellow)](https://huggingface.co/datasets/AuroraZengfh/MM-MergeBench) 
 [![🤗 Model (HuggingFace)](https://img.shields.io/badge/Model-HuggingFace-FFD21E.svg?logo=huggingface&logoColor=yellow)](https://huggingface.co/collections/AuroraZengfh/mm-mergebench-68d15d1e884bad26f6f94972)
+[![zhihu](https://img.shields.io/badge/-WeChat@机器之心-000000?logo=wechat&logoColor=07C160)](https://mp.weixin.qq.com/s/H5bahJeeGX9RZGUmW-AucQ)
+[![zhihu](https://img.shields.io/badge/-知乎-000000?logo=zhihu&logoColor=0084FF)](https://zhuanlan.zhihu.com/p/1971221237834420376)
 
 **Key words: Multimodal large language model, Model merging, Multi-task learning, Parameter-efficient tuning, Robust fine-tuning.**
 
