@@ -148,10 +148,10 @@ We provide [model weights](https://huggingface.co/collections/AuroraZengfh/mm-me
 If you find this work useful, consider giving this repository a star :star: and citing :bookmark_tabs: our paper as follows:
 
 ```bibtex
-@article{zeng2025parameter,
+@inproceedings{zeng2025parameter,
   title={RobustMerge: Parameter-Efficient Model Merging for MLLMs with Direction Robustness},
   author={Zeng, Fanhu and Guo, Haiyang and Zhu, Fei and Shen, Li and Tang, Hao},
-  journal={arXiv preprint arXiv:2502.17159},
+  booktitle={The Thirty-ninth Annual Conference on Neural Information Processing Systems},
   year={2025}
 }
 ```
