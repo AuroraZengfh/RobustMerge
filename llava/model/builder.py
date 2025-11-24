@@ -242,7 +242,7 @@ def load_and_merge_pretrained_model(model_paths, model_base, model_name, save_mo
                         merged_non_lora_trainables[name] = merged_non_lora_trainables[name] + coef * param
             torch.save(merged_non_lora_trainables, os.path.join(save_model_path,'non_lora_trainables.bin'))
             
-            # 2. load, merge and save lora weights (DIR-Merging): prune&scaling and normalization
+            # 2. load, merge and save lora weights (RobustMerge): prune&scaling and normalization
             fuse_weight = (torch.ones(len(model_paths))*2.0)[:,None,None]
             concat_model_weights, merged_model_weights = {}, {}
             for i, sub_model_path in enumerate(model_paths):
