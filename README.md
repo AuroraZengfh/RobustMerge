@@ -1,6 +1,6 @@
 # RobustMerge: Parameter-Efficient Model Merging for MLLMs with Direction Robustness (NeurIPS 2025 Spotlight :fire:)
 
-This repo is the official implementation of paper: **[RobustMerge: Parameter-Efficient Model Merging for MLLMs with Direction Robustness](https://arxiv.org/abs/2502.17159) [NeurIPS 2025 (Spotlight, acceptance rate: 3.1%)]**
+This repo is the official implementation of paper: **[RobustMerge: Parameter-Efficient Model Merging for MLLMs with Direction Robustness](https://arxiv.org/abs/2502.17159) [NeurIPS 2025 (Spotlight, acceptance rate: 3%)]**
 
 > RobustMerge: Parameter-Efficient Model Merging for MLLMs with Direction Robustness
 >
