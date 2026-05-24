@@ -152,6 +152,8 @@ If you find this work useful, consider giving this repository a star :star: and 
   title={RobustMerge: Parameter-Efficient Model Merging for MLLMs with Direction Robustness},
   author={Zeng, Fanhu and Guo, Haiyang and Zhu, Fei and Shen, Li and Tang, Hao},
   booktitle={The Thirty-ninth Annual Conference on Neural Information Processing Systems},
+  volume={38},
+  pages={71071--71095},
   year={2025}
 }
 ```
